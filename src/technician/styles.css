@@ -1,0 +1,52 @@
+@import '../customer/styles.css';
+
+/* Technician theme: green accents on top of the customer styles */
+.tech .bottom-nav button.active{color:#0b9b61}
+.tech .bottom-nav button.active span{background:#e2f6ec}
+.tech .category-chip.active{background:#0b9b61;border-color:#0b9b61}
+.tech .choice.active{border-color:#0b9b61;background:#e8f8f0;color:#0b7a4c}
+.tech .text-btn,.tech .back-link{color:#0b8a56}
+.tech .avatar,.tech .profile-avatar{background:#d7f3e5;color:#0b7a4c}
+.tech .form-card input:focus,.tech .form-card select:focus{border-color:#0b9b61}
+
+.t-head{display:flex;align-items:center;gap:12px;margin:2px 0 14px}
+.t-head .profile-avatar{width:52px;height:52px;font-size:16px;margin:0}
+.t-head h1{font-size:20px;margin:0}
+.t-head p{margin:2px 0 0;font-size:11px;font-weight:800}
+.on{color:#0b9b61}.off{color:#8291a4}
+.switch{margin-left:auto;width:50px;height:28px;border-radius:20px;border:0;background:#cfd8e3;position:relative;cursor:pointer;transition:.2s;flex-shrink:0}
+.switch:after{content:'';position:absolute;top:3px;left:3px;width:22px;height:22px;border-radius:50%;background:#fff;box-shadow:0 1px 4px #0003;transition:.2s}
+.switch.on{background:#0b9b61}.switch.on:after{left:25px}
+.offline-note{background:#fff1dc;color:#b86500;border-radius:12px;padding:11px 13px;font-size:11px;font-weight:700;margin-bottom:12px}
+.stat-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:6px}
+.stat{border-radius:16px;padding:15px;color:#fff;display:flex;justify-content:space-between;align-items:center}
+.stat small{font-size:11px;font-weight:700;opacity:.92;display:block}.stat b{font-size:30px;font-weight:800;line-height:1.1}
+.stat i{font-style:normal;font-size:24px;opacity:.9}
+.stat.blue{background:#1767d8}.stat.green{background:#0b9b61}
+
+.job-list{display:grid;gap:12px}
+.job-card{background:#fff;border:1px solid #e7edf5;border-radius:16px;padding:14px;display:grid;gap:7px;text-align:left;width:100%;cursor:pointer}
+.job-top{display:flex;align-items:center;gap:11px}
+.job-top .booking-icon{width:40px;height:40px;font-size:20px}
+.job-top div{flex:1}.job-top b{font-size:13px;display:block}.job-top small{font-size:11px;color:#71839a}
+.pill{font-size:9px;font-weight:800;padding:5px 9px;border-radius:20px;background:#e7f0ff;color:#0b559d;white-space:nowrap}
+.pill.new{background:#fff1dc;color:#b86500}.pill.go{background:#e0f2ff;color:#0875d7}.pill.done{background:#e4f7eb;color:#16834c}.pill.cancel{background:#fde8e8;color:#d93b3b}
+.job-line{font-size:11px;color:#6b7f96}
+.job-amount{font-size:13px;font-weight:800;color:#0b559d}
+.job-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:4px}
+.btn{border:0;border-radius:11px;padding:12px;color:#fff;font-weight:800;font-size:12px;cursor:pointer;text-align:center;text-decoration:none;display:block}
+.btn.blue{background:#0b66c3}.btn.green{background:#0b9b61}.btn.red{background:#d93b3b}.btn.orange{background:#ff9417}.btn.ghost{background:#fff;color:#0b8a56;border:1.5px solid #0b9b61}
+.btn.full{grid-column:1/-1}
+.tabs{display:flex;background:#fff;border-radius:13px;border:1px solid #e7edf5;padding:4px;margin:12px 0}
+.tabs button{flex:1;border:0;background:none;padding:10px 4px;font-size:11px;font-weight:800;color:#71839a;border-radius:10px;cursor:pointer}
+.tabs button.active{background:#0b9b61;color:#fff}
+.detail-card{background:#fff;border:1px solid #e7edf5;border-radius:16px;padding:15px;margin-bottom:12px;display:grid;gap:8px}
+.detail-card small.lbl{font-size:8px;letter-spacing:1px;font-weight:800;color:#8291a4}
+.detail-card .row{display:flex;align-items:center;gap:10px}.detail-card .row .grow{flex:1}
+.big{font-size:21px;font-weight:800;color:#0b559d}
+.earn-card{margin:16px 0;background:linear-gradient(120deg,#056b45,#0b9b61);border-radius:18px;padding:20px;color:#fff}
+.earn-card small{font-size:9px;letter-spacing:1.5px;color:#cff3e1}.earn-card h2{font-size:32px;margin:6px 0}.earn-card span{font-size:11px;color:#ddf7ea}
+.earn-item{display:flex;align-items:center;gap:11px;background:#fff;border:1px solid #e7edf5;border-radius:14px;padding:12px;margin-bottom:9px}
+.earn-item div{flex:1}.earn-item b{display:block;font-size:12px}.earn-item small{font-size:10px;color:#71839a}
+.earn-item .plus{color:#0b9b61;font-weight:800;font-size:13px;text-align:right}
+.tech .location-pill{background:#e4f7eb;color:#16834c}
